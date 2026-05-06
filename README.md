@@ -32,6 +32,20 @@ Alternatively: `uvicorn api:app --reload --host 127.0.0.1 --port 8000`
 python test_system.py
 ```
 
+## Publish to GitHub
+
+1. On GitHub, create a **new empty repository** under your account (e.g. **Repository name:** `know`).  
+   Do **not** add a README, `.gitignore`, or license on GitHub (this repo already has them).
+
+2. In this folder, run (replace `know` if you chose another name):
+
+```bash
+git remote add origin https://github.com/minasahersamy78/know.git
+git push -u origin main
+```
+
+If GitHub asks for credentials, use a [Personal Access Token](https://github.com/settings/tokens) instead of your password, or sign in with GitHub Desktop / SSH.
+
 ## Disclaimer
 
 Not medical advice. For learning purposes only.
